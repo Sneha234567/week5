@@ -1,5 +1,5 @@
-
 public class Factorial {
+
     public static int factorial(int n) {
         int result = 1;
 
@@ -8,5 +8,10 @@ public class Factorial {
         }
 
         return result;
+    }
+
+    public static void main(String[] args) {
+        int n = 5;
+        System.out.println("Factorial of " + n + " = " + factorial(n));
     }
 }
