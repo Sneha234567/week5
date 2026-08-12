@@ -1,5 +1,5 @@
-
 public class TestFactorial {
+
     public static void main(String[] args) {
         int result = Factorial.factorial(5);
 
